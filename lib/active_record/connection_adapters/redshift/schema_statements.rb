@@ -159,7 +159,7 @@ module ActiveRecord
         end
 
         def new_column(name, default, sql_type_metadata = nil, null = true, table_name = nil, default_function = nil) # :nodoc:
-          RedshiftColumn.new(name, default, sql_type_metadata, null, table_name, default_function)
+          RedshiftColumn.new(name, default, sql_type_metadata, null, default_function)
         end
 
         # Returns the current database name.
