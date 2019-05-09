@@ -1,13 +1,13 @@
 Gem::Specification.new do |s|
   s.platform = Gem::Platform::RUBY
   s.name = 'activerecord6-redshift-adapter'
-  s.version = '1.0.1'
+  s.version = '1.0.0'
   s.summary = 'Amazon Redshift adapter for ActiveRecord '
-  s.description = 'Amazon Redshift _makeshift_ adapter for ActiveRecord 5.'
+  s.description = 'Amazon Redshift _makeshift_ adapter for ActiveRecord 6.'
   s.license = 'MIT'
 
   s.author = ['Nancy Foen', 'Minero Aoki', 'iamdbc']
-  s.email = 'nancy.foen@grandrounds.com'
+  s.email = 'fantast.d@gmail.com'
   s.homepage = 'https://github.com/iamdbc/activerecord6-redshift-adapter'
 
   s.files = Dir.glob(['LICENSE', 'README.md', 'lib/**/*.rb'])
